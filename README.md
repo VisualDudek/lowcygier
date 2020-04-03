@@ -19,4 +19,6 @@ cd <provide correct full path to src folder>
 source ./env/bin/activate >> /tmp/asdf.log 2>&1
 ./lab_project.py >> /tmp/asdf.log 2>&1
 ```
+4. add job to cron:
+`crontable -e`
 
