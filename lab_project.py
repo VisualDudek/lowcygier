@@ -57,7 +57,7 @@ def load_JSON(file_name: str):
 def main():
     # Read secrets
     config = configparser.ConfigParser()
-    config.read('confing.cfg')
+    config.read('config.cfg')
     
     data = get_current_data()
     seen = load_JSON('test.json')
