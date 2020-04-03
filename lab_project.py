@@ -14,6 +14,8 @@ import configparser
 # - how to save data as JSON?
 # - how to convert string to time object?
 # - add date format to logger
+# - add job to CRON
+# - check logs from CRON
 
 def get_current_data():
     '''
