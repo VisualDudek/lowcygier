@@ -21,4 +21,8 @@ source ./env/bin/activate >> /tmp/asdf.log 2>&1
 ```
 4. add job to cron:
 `crontable -e`
+```bash
+# m h  dom mon dow   command
+*/30 * * * * /home/m/LINUX2020/webscraper/lab/start.sh
+```
 
