@@ -3,9 +3,11 @@ web scraper
 
 ## Prerequsite
 
-1. Install all dependecies:
+- `sudo apt install python3-venv`
+- create virtual env
+- Install all dependecies:
 `pip install -r requirements`
-2. setup `config.cfg`:
+- setup `config.cfg`:
 ```
 [telegram]
 id=
